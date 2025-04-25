@@ -1,7 +1,7 @@
 // !Create An unordered List.Allow User To add and Remove list Item Dynamically Using Button
 
 let InputItem = document.querySelector("input");
-let ul = document.querySelector(".UnOrderList");
+var ul = document.querySelector(".UnOrderList");
 let add = document.querySelector(".Bt1Add");
 let Remove = document.querySelector(".Rem");
 
@@ -34,4 +34,3 @@ Remove.addEventListener("click",function(){
               ul.removeChild(li);
 
 });
-console.log("Hello world ")
