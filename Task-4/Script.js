@@ -18,6 +18,7 @@ add.addEventListener("click", function () {
     //because the Error will the Var  varible will not accesible outside the
     //Function ... So we Are Creaitting the varibel Globally because it is Easy TO accesible
     li = document.createElement("li");
+    //The value of the Li is Creait  
     li.textContent = InputItem.value;
     //*In li Element we are add the text Content which is Add by User
     ul.appendChild(li);
@@ -33,3 +34,4 @@ Remove.addEventListener("click",function(){
               ul.removeChild(li);
 
 });
+console.log("Hello world ")
